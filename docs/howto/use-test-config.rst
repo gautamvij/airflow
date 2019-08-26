@@ -28,7 +28,7 @@ In order to eagerly load the test configuration, set test_mode in airflow.cfg:
 
 .. code-block:: bash
 
-  [tests]
+  [core]
   unit_test_mode = True
 
 Due to Airflow's automatic environment variable expansion (see :doc:`set-config`), you can also set the environment variable ``AIRFLOW__CORE__UNIT_TEST_MODE`` to temporarily overwrite airflow.cfg.
